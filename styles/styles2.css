@@ -1,0 +1,51 @@
+/* Lista de tareas */
+
+.input .ingresar {
+    border: none;
+    padding: 10px;
+    background-color: #ffffff;
+    border: solid #252525 0.5px;
+    color: #252525;
+    width: 300px;
+    height: 15px ;
+    border-radius: 15px;
+}
+
+input[type="button"] {
+    border-radius: 15px;
+    border: none;
+    height: 30px;
+    width: 80px;
+    color: #ffffff;
+    background-color: #007BFF;
+}
+
+.tareas {
+    padding: 2em;
+}
+
+.tarea {
+    display: flex;
+    justify-content: space-between;
+    border: solid #252525 0.5px;
+    align-items: center;
+    border-radius: 15px;
+    margin: 1em;
+    padding: 5px 1em;
+    height: 2em;
+    min-width: 300px;
+}
+
+.tarea button {
+    border: none;
+    padding: 5px;
+    height: 100%;
+}
+
+.tarea button img {
+    height: 100%;
+}
+
+.tarea.-selected > span {
+    text-decoration-line: line-through;
+}

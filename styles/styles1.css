@@ -1,0 +1,58 @@
+/* Etiquetas Globales */
+html {
+    height: 100%;
+    font-family: 'Lucida Sans', Sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+}
+
+main {
+    padding: 2em 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% - 30em);
+}
+
+/* Contenido (Apartado izquierda) */
+aside {
+    background-color: #e4e4e4;
+    width: 20em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+aside .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside .menu a {
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333333;
+}
+
+aside img {
+    width: 100%;
+    border-radius: 100%;
+    padding-left: 15px;
+    align-items: center;
+    max-width: calc(100% - 2em);
+}
+
+h3{
+    color: #708090;
+    font-weight: lighter;
+}
