@@ -2,22 +2,22 @@
 
 .input .ingresar {
     border: none;
-    padding: 10px;
-    background-color: #ffffff;
-    border: solid #252525 0.5px;
-    color: #252525;
-    width: 300px;
-    height: 15px ;
     border-radius: 15px;
+    border: solid #252525 0.5px;
+    background-color: #ffffff;
+    color: #252525;
+    height: 15px;
+    padding: 10px;
+    width: 300px;
 }
 
 input[type="button"] {
     border-radius: 15px;
     border: none;
+    background-color: #007BFF;
+    color: #ffffff;
     height: 30px;
     width: 80px;
-    color: #ffffff;
-    background-color: #007BFF;
 }
 
 .tareas {
@@ -25,21 +25,21 @@ input[type="button"] {
 }
 
 .tarea {
-    display: flex;
-    justify-content: space-between;
-    border: solid #252525 0.5px;
     align-items: center;
     border-radius: 15px;
-    margin: 1em;
-    padding: 5px 1em;
+    border: solid #252525 0.5px;
+    display: flex;
     height: 2em;
+    justify-content: space-between;
+    margin: 1em;
     min-width: 300px;
+    padding: 5px 1em;
 }
 
 .tarea button {
     border: none;
-    padding: 5px;
     height: 100%;
+    padding: 5px;
 }
 
 .tarea button img {

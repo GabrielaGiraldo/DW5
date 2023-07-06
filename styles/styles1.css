@@ -5,29 +5,30 @@ html {
 }
 
 body {
-    background-color: #f0f0f0;
-    margin: 0;
-    height: 100%;
     display: flex;
+    background-color: #f0f0f0;
+    height: 100%;
+    margin: 0;    
 }
 
 main {
-    padding: 2em 5em;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2em 5em;
     width: calc(100% - 30em);
 }
 
 /* Contenido (Apartado izquierda) */
 aside {
-    background-color: #e4e4e4;
-    width: 20em;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: #e4e4e4;
+    width: 20em;
+    height: 100%;
+    
 }
 
 aside .menu {
@@ -45,11 +46,11 @@ aside .menu a {
 }
 
 aside img {
-    width: 100%;
+    align-items: center;
     border-radius: 100%;
     padding-left: 15px;
-    align-items: center;
     max-width: calc(100% - 2em);
+    width: 100%;
 }
 
 h3{
